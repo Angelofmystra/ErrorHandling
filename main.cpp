@@ -1,5 +1,8 @@
 #include <iostream>
 #include <string>
+/*
+ In order to make this implementation work, the compiler needs to be rigged so it will fail to compile if an unignored error occurs. I am not yet sure as to how to do this.
+*/
 class Status {
 private:
   bool ok_;
